@@ -5,4 +5,5 @@ public enum ShapeType {
     RECTANGLE,
     SQUARE,
     CIRCLE,
+    SEMICIRCLE,
 }

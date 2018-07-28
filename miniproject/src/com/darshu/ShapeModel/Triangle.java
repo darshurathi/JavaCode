@@ -13,6 +13,7 @@ public class Triangle implements Shape {
 
   public float getArea()
   {
+
       return (base*height)/2;
   }
 

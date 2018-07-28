@@ -50,4 +50,9 @@ public class ShapeCreator {
         int r = new java.util.Scanner(System.in).nextInt();
         return new Circle(r);
     }
+    private Shape createSemiCircleShape(){
+        System.out.println("Enter radius :");
+        int s = new java.util.Scanner(System.in).nextInt();
+        return new SemiCircle(s);
+    }
 }

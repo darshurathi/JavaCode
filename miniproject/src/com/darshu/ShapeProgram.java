@@ -23,6 +23,7 @@ public class ShapeProgram {
         System.out.println(" 2. Rectangle");
         System.out.println(" 3. Square");
         System.out.println(" 4. Circle");
+        System.out.println(" 5. SemiCircle");
         System.out.println(" Enter Your Choice .....");
         int x = new java.util.Scanner(System.in).nextInt();
 
@@ -39,6 +40,8 @@ public class ShapeProgram {
             case 4:
                 type = ShapeType.CIRCLE;
                 break;
+            case 5:
+                type = ShapeType.SEMICIRCLE;
             default:
                 System.out.println("INVALID CHOICE");
         }
